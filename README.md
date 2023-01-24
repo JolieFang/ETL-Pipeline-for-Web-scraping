@@ -13,3 +13,6 @@ The goal of this project is to develop a process that automatically extracts thr
 - Python programming language
 - Selenium
 - ChromeDriver and Google Chrome
+
+## ETL Pipeline
+![alt text]("")
