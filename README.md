@@ -15,4 +15,4 @@ The goal of this project is to develop a process that automatically extracts thr
 - ChromeDriver and Google Chrome
 
 ## ETL Pipeline
-![alt text](ETL Pipeline.png)
+![alt text](https://github.com/JolieFang/ETL-Pipeline-for-Web-scraping/blob/d10645d0c485c9b17fe57d4260087a88242e854e/ETL%20Pipeline.png)
