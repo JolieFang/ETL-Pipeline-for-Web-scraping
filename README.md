@@ -14,3 +14,36 @@ The goal of this project is to develop a process that automatically extracts thr
 - Python programming language
 - Selenium
 - ChromeDriver and Google Chrome
+
+## Usage:
+
+1. How to use Makefile and Dockerfile, run the below command to run all the necessary docker containers using terminal:
+```
+make all
+```
+
+2. To webscrape all listed websites, run:
+```
+make spark-submit
+```
+3. To reset (delete all table contents) the PostgreSQL database, run:
+```
+sh reset_postgres_database.sh
+```
+4. To copy the output files from docker container to your machine, run:
+```
+sudo docker cp -a spark:/opt/bitnami/spark/output_files/ ["target path in your machine"]
+
+example:
+
+sudo docker cp -a spark:/opt/bitnami/spark/output_files/ ~/Desktop/webscraping_files/
+```
+## Files:
+Location of main python file:
+```
+pyspark/src/main.py
+```
+Location of output files (CSV, JSON, Parquet) - inside the 'spark' docker container:
+```
+spark:/opt/bitnami/spark/output_files/
+```
