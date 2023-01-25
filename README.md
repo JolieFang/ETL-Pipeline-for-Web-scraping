@@ -8,7 +8,7 @@ The goal of this project is to develop a process that automatically extracts thr
 
 ## Tools used:
 - Docker containers
-- PySpark
+- Apache Spark
 - PostgreSQL database
 - MongoDB database
 - Python programming language
